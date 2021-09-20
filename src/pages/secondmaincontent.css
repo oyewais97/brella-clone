@@ -1,0 +1,88 @@
+.SecondContent-container{
+    margin-top: 5rem;
+    border-top: black;
+    
+}
+
+.para-1{
+    text-align: center;
+    width: 100%;
+    
+}
+.img-center{
+    border-radius: 50%;
+    height: 20vh;
+
+    
+}
+.para-11{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-top: black;
+    font-weight: 600;
+}
+.hr-line{
+    width: 60%;
+}
+.main-para{
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-2{
+    text-align: center;
+    width: 100%;
+}
+.container3{
+    height: 30vh;
+       
+}
+.container3{
+    text-align: center;
+    vertical-align: bottom;
+    width: 65%;
+}
+.para-4{
+    margin: 0;
+    vertical-align: bottom;
+    padding-top: 15rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(160, 156, 156);
+}
+body {
+    margin: 0;
+  }
+  
+  .heaidingflow,
+  h2 {
+    width: 100%;
+  }
+  
+  .heaidingflow {
+    animation: left_to_right  3s forwards;
+    transform:translateX(-30%);
+  }
+  
+  h2 {
+    text-align: right;
+    animation: left_to_right 100s ease;
+  }
+  
+  @keyframes left_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+        transform:translateX(0);
+    }
+  }
+  
+  @keyframes left_to_right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+        transform:translateX(0);
+      }
+    }
