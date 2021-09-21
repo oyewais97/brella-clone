@@ -1,0 +1,12 @@
+.text-uppercase{
+    font-size: 3rem;
+    font-weight: bolder ;
+}
+.footer-ul{
+    list-style-type: none;
+    
+}
+.footerlist{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}

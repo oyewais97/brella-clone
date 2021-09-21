@@ -4,7 +4,7 @@ import './secondmaincontent.css';
 const Secondmaincontent=()=> {
     return (
         <div >
-            <hr className="hr-line"/>
+            <hr className="hr-line mx-auto "/>
             <div className="SecondContent-container">
             <p className="para-1"> 
             <p className="para-11 col-10">
@@ -25,11 +25,11 @@ const Secondmaincontent=()=> {
                 </p>
             </p>
             </div>
-            <hr className="hr-line"/>
+            <hr className="hr-line mx-auto"/>
             <div className="container3">
                   <p className="para-4">DURING THE PAST 5 YEARS WE'VE HELPED...</p>
             </div>
-            <hr className="hr-line"/>
+            <hr className="hr-line mx-auto"/>
             <div className="container-2">
             <h1 className="heaidingflow">I come from the right side</h1> 
 <h2 style={{paddingRight: "0px"}}>I come from the left side</h2>

@@ -46,9 +46,7 @@ const Nav = () => {
               </li>
             
             <li className="nav-btn">
-              <Link to={"/reqdemo"} className="Req-demo">
-                <button className="demo-btn">Contact</button>
-              </Link>
+              Contact
             </li>
           </ul>
         </div>

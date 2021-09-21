@@ -45,7 +45,7 @@
 .para-4{
     margin: 0;
     vertical-align: bottom;
-    padding-top: 15rem;
+    padding-top: 22rem;
     font-size: 1.3rem;
     font-weight: 700;
     color: rgb(160, 156, 156);
@@ -60,15 +60,16 @@ body {
   }
   
   .heaidingflow {
-    animation: left_to_right  3s forwards;
-    transform:translateX(-30%);
+    
+    position:relative;
+    animation: left_to_right 5s infinite;
   }
   
   h2 {
-    text-align: right;
-    animation: left_to_right 100s ease;
+    text-align: center;
+    animation: left_to_left 3s ease;
   }
-  
+/*   
   @keyframes left_to_left {
     from {
       margin-left: 100%;
@@ -85,4 +86,10 @@ body {
     to {
         transform:translateX(0);
       }
+    } */
+    @keyframes left_to_right {
+      from {margin-left: -100%;}
+      to {
+        transform:translateX(0);
+    }
     }
