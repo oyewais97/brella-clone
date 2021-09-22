@@ -36,9 +36,10 @@ const locations = [
     label: "jyvaskyla",
   },
 ];
+const dept = 'Alldepartments';
 const Openposition = () => {
-  const [department, setDepartment] = React.useState("Alldepartments");
-  const [location, setLocation] = React.useState("Alllocations");
+  const [department, setDepartment] = React.useState(dept);
+  const [location, setLocation] = React.useState('Alllocations');
 
   const handleChange = (event) => {
     setDepartment(event.target.value);
@@ -50,12 +51,13 @@ const Openposition = () => {
     <div>
       <br />
       <div className="openContainer">
-        <h1 className="position-haeding">OPEN POSITIONS</h1>
+        <h1 className="position-haeding" id="position">OPEN POSITIONS</h1>
       </div>
       <div className="text-div-container">
         <TextField
           id="standard-select-currency"
           select
+          
           value={department}
           onChange={handleChange}
           variant="standard"

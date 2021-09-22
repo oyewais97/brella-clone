@@ -7,7 +7,7 @@ const Thirdcontent=()=> {
         <div>
             <div className="third-container-main">
                <div className="third-main col-sm-4 col-md-6 col-lg-6">
-                   <h1 className="heaidngone">
+                   <h1 className="heaidngone1">
                    Meet the <br/>Brellaneers
 
                    </h1>
@@ -18,7 +18,7 @@ const Thirdcontent=()=> {
               />
                    
                    </div>
-                   <div>
+                   <div style={{marginTop:"4rem"}}>
                        <p className="light">
                        Brella is a workplace where you can be yourself, no matter who you are. Because when
                        <br />

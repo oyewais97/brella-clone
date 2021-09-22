@@ -73,7 +73,7 @@
     justify-content: center;
     list-style: none;
     text-align: center;
-    justify-content: end;
+    text-align: center;
   }
   
   
@@ -87,7 +87,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    float: left;
+    
   }
   
   

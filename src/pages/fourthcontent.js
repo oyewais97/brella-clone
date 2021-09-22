@@ -25,24 +25,24 @@ const Fourthcontent=()=> {
 
             </div> */}
             <div className="row-fourth">
-               <div className="leftSide col-sm-4 col-md-6 col-lg-6">
+               <div className="leftSide  col-sm-10 col-md-4 col-lg-6">
                <img
                 src={process.env.PUBLIC_URL + "/images/img1.jpg"}
-                className="leftSide-img"
+                className="leftSide-img col-12"
                 
               />
                    
     
     
                </div>
-               <div className="rightSide">  
-                   <p className="rightSide-para">
+               <div className="rightSide  col-sm-10 col-md-4 col-lg-6">  
+                   <p className="rightSide-para col-10 mx-auto">
                    Since my first day at the company, I've been surrounded by support, 
                    endless possibilities and intelligent minds in the Brella family. 
                    Working at Brella 
                    has not only taught me the ABC of startups but given me important career skills for the future!
                    </p>
-                   <p className="para-rightSide">Jenni Mämmi
+                   <p className="para-rightSide col-12" style={{paddingTop:"3.1rem"}}>Jenni Mämmi
                    
                    <br />
                   <span className="support-lead"> Technical Support Lead</span>

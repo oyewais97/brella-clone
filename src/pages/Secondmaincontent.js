@@ -7,9 +7,9 @@ const Secondmaincontent=()=> {
             <hr className="hr-line mx-auto "/>
             <div className="SecondContent-container">
             <p className="para-1"> 
-            <p className="para-11 col-10">
-            I admire how everyone in Brella is proud of their role in shaping the company & its culture.<br/> Working at Brella seems like you are part 
-            of a big family who takes care of each other and <br/> are driven by passion, curiosity, empathy and modesty.
+            <p className="para-11 col-10 mx-auto">
+            I admire how everyone in Brella is proud of their role in shaping the company & its culture. Working at Brella seems like you are part 
+            of a big family who takes care of each other and are driven by passion, curiosity, empathy and modesty.
                 </p>
             <img
                 src={process.env.PUBLIC_URL + "/images/img3.jpg"}
@@ -21,7 +21,7 @@ const Secondmaincontent=()=> {
             
                 Owais Ghaffar
                 <br />
-                <p> JUNIOR DEVELOPER </p>
+                <p style={{fontWeight:"400"}} > JUNIOR DEVELOPER </p>
                 </p>
             </p>
             </div>
@@ -31,8 +31,11 @@ const Secondmaincontent=()=> {
             </div>
             <hr className="hr-line mx-auto"/>
             <div className="container-2">
-            <h1 className="heaidingflow">I come from the right side</h1> 
-<h2 style={{paddingRight: "0px"}}>I come from the left side</h2>
+            <h1 className="heaidingflow">Create new jobs
+Organizations grow
+Get people hired
+</h1> 
+<h2 className="heaidingflow2">I come from the left side</h2>
             </div>
         </div>
     )

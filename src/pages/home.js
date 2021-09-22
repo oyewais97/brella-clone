@@ -19,31 +19,17 @@ const Home =()=> {
        
        
 
-       <div className="content-second">
-           <hr />
-           <Secondmaincontent />
-       </div>
+       
 
        <br />
-       <div>
-           <Thirdcontent />
-       </div>
+       
             
-            <div>
-                <Fourthcontent />
-            </div>
             <br />
-            <div>
-                <Openposition />
-            </div>
-            <div>
-                <SixthComponent />
-            </div>
+          
+            
             <br />
             <br />
-            <div className="perksbene">
-                <Seventhcontent />
-            </div>
+            
             <div className="footermain">
                 <Footer />
             </div>

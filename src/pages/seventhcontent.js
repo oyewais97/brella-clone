@@ -12,6 +12,7 @@ import {
   faCommentAlt,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-scroll';
 import { IoIosArrowDropright } from "react-icons/io";
 import { IoAnalyticsSharp } from "react-icons/io5";
 
@@ -158,12 +159,13 @@ camilla@brella.io
 </Card>
             </div>
             <div className="partoutstory">
-              <h1 style={{fontSize:"8rem",fontWeight:"bolder"}} className="col-4 mx-auto">Be Part of Our Story</h1>
+              <h1 style={{fontSize:"4rem",fontWeight:"730", fontFamily:"Gilroy,sans-serif"}} className="col-sm-12 col-md-12 col-lg-4 mx-auto">Be Part of Our Story</h1>
 
               <p style={{fontSize:"1.6rem", fontStyle:"normal",paddingTop:"3rem" }} className="col-6 mx-auto">We'd love to have you on our team. Take a look at our open positions and apply today.</p>
-              <button className="left-buttton ol-8 mx-auto" style={{fontSize:"1.3rem",fontWeight:"750",marginTop:"3rem", marginBottom:"4rem"}}>
+            <Link to='position' smooth={true} duration={100} > <button className="left-buttton ol-8 mx-auto" style={{fontSize:"1.3rem",fontWeight:"750",marginTop:"3rem", marginBottom:"4rem"}}>
                      Our Open Position
                   </button>
+                  </Link>
             </div>
             <hr style={{width:"100%"}}  />
         </div>

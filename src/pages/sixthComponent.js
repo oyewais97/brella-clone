@@ -6,8 +6,8 @@ const SixthComponent=()=> {
     return (
         <div>
            <div className="col-6  mx-auto">
-        <h1 style={{ fontSize: "6rem", fontWeight: "770", color: "black" }}>
-          The healthiest growth company in Finland
+        <h1 style={{ fontSize: "6rem", fontWeight: "770", color: "black",fontFamily:"Gilroy,sans-serif"}}>
+          The healthiest growth company <br/>in Finland
         </h1>
       </div>
 
@@ -17,38 +17,38 @@ const SixthComponent=()=> {
             style={{
               fontSize: "1.4rem",
               fontWeight: "700",
-              paddingTop: "5rem",
+              paddingTop: "3rem",
             }}
           >
             With our people-first culture we strive to:
           </p>
-
-          <ul className="list_left mx-auto">
+     
+          <ol className="list_left ">
             <li className="list_one mx-auto col-5 ">
-              1.
-              <span /> Drive and coach culture that demands growth and ambition.
+            
+              <span /> Drive and coach culture that  demands growth and ambition.
             </li>
             <li className="list_one mx-auto col-5">
-              2.
-              <span />
+              
+              
               Attract, recruit and nurture the best possible talent
             </li>
-            <li className="list_one mx-auto col-5">
-              3.
-              <span />
+            <li className="list_one mx-auto  col-5">
+              
+              
               Support a safe and encouraging work place, where everyone can feel
               confident, trusted and respected.
             </li>
-          </ul>
+          </ol>
 
-          <p style={{ fontSize: "1rem" }}>
+          <p style={{ fontSize: "1rem" }} className=" col-12">
             Our goal is to be the healthiest tech growth company in Finland!
           </p>
         </div>
         <div className="div-last-right col-sm-12 col-md-10 col-lg-12">
           <img
             src={process.env.PUBLIC_URL + "/images/img6.jpg"}
-            className="rightSide1-img"
+            className="rightSide1-img col-9"
           />
         </div>
       </div>
@@ -56,19 +56,19 @@ const SixthComponent=()=> {
         </div>
         <br />
         <div className="vv">
-            <div className="scnd-last-left">
+            <div className="scnd-last-left col-sm-12 col-md-12 col-lg-6">
             <img
             src={process.env.PUBLIC_URL + "/images/img8.jpg"}
-            className="leftSide12-img col-sm-12 col-md-6 col-lg-6"
+            className="leftSide12-img col-sm-12 col-md-12 col-lg-8"
           />
         </div>
-        <div className="scnd-last-right">
-        <p className="rightpara-side col-sm-12 col-md-6 col-lg-9">
+        <div className="scnd-last-right col-sm-12 col-md-12 col-lg-6">
+        <p className="rightpara-side col-sm-12 col-md-6 col-lg-7 ">
         We are convinced that top quality individuals with diverse minds make all the difference.
          We want diversity, equity and inclusion to be a natural part of our DNA.
 
         </p>
-        <p className="rightpara-side2 col-sm-12 col-md-6 col-lg-10">
+        <p className="rightpara-side2 col-sm-12 col-md-6 col-lg-7 ">
         Each individual on our team is truly important, 
         and we have high expectations for each and every one of our employees.
         </p>

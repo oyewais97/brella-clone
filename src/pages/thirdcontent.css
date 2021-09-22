@@ -7,6 +7,13 @@
     
 
 }
+.heaidngone1{
+font-size: 4.5rem;
+    line-height: .97222;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
 .third-main{
     width: 100%;
     
@@ -24,8 +31,13 @@
 }
 .third-content-img{
     height: 40%;
+    padding-top: 4rem;
 }
 .light{
-    font-size: 20px;
+    text-align: center;
+    
+    font-size: 0.9375rem;
+    line-height: 1.46667;
     font-weight: 400;
+    color: rgba(0, 0, 0, 0.76);
 }
