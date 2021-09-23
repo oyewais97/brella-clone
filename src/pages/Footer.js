@@ -1,12 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './footer.css';
-
+import { BsArrowRight } from "react-icons/bs";
+import TextField from "@mui/material/TextField";
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <>
+    <div className="before-footer row">
+      <div className="before-ftr-left col-6 ">
+        <h3 className="subscribe-heading">Subscribe to our monthly newsletter</h3>
+        <p>By clicking subscribe you’ll receive occasional emails from Brella.</p>
+      </div>
+      <div className="before-str-right col-6 ">
+      <TextField  
+      variant="outlined"
+      type="email"
+      size="medium"
+      placeholder="user123@gmail.com"
+      style={{
+        height:"2vh"
+      }}
+
+      />
+      <button  size="large" className="btn-blog-firstss btn-outlined-secondary ">LOAD MORE </button><span><BsArrowRight size={40} /></span>
+      </div>
+
+    </div>
       <footer className="font-small blue pt-4">
         <div className="container-fluid text-center text-md-left">
           <div className="row footer-row col-8 mx-auto">

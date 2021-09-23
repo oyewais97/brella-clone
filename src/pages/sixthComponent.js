@@ -11,8 +11,8 @@ const SixthComponent=()=> {
         </h1>
       </div>
 
-      <div className="last-content-main">
-        <div className="div-last-left col-sm-12 col-md-10 col-lg-8 ">
+      <div className="last-content-main col-12">
+        <div className="div-last-left col-sm-12 col-md-10 col-lg-12 ">
           <p
             style={{
               fontSize: "1.4rem",
@@ -24,16 +24,16 @@ const SixthComponent=()=> {
           </p>
      
           <ol className="list_left ">
-            <li className="list_one mx-auto col-5 ">
+            <li className="list_one mx-auto col-sm-10 col-md-8 col-lg-5 ">
             
               <span /> Drive and coach culture that  demands growth and ambition.
             </li>
-            <li className="list_one mx-auto col-5">
+            <li className="list_one mx-auto col-sm-10 col-md-8 col-lg-5">
               
               
               Attract, recruit and nurture the best possible talent
             </li>
-            <li className="list_one mx-auto  col-5">
+            <li className="list_one mx-auto  col-sm-10 col-md-8 col-lg-5">
               
               
               Support a safe and encouraging work place, where everyone can feel
@@ -45,10 +45,10 @@ const SixthComponent=()=> {
             Our goal is to be the healthiest tech growth company in Finland!
           </p>
         </div>
-        <div className="div-last-right col-sm-12 col-md-10 col-lg-12">
+        <div className="div-last-right col-sm-12 col-md-10 col-lg-6">
           <img
             src={process.env.PUBLIC_URL + "/images/img6.jpg"}
-            className="rightSide1-img col-9"
+            className="rightSide1-img col-sm-12 col-lg-9"
           />
         </div>
       </div>

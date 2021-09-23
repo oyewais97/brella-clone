@@ -8,5 +8,54 @@
 }
 .footerlist{
     font-size: 1.4rem;
+    font-weight: bolder ;
+}
+.before-ftr-left{
+    float: left;
+}
+.before-ftr-right{
+    float: right;
+}
+.before-footer{
+    width: 100%;
+    margin-top: 10rem;
+    text-align: center;
+}
+.subscribe-heading{
     font-weight: bolder;
+    font-family: "Gilroy",sans-serif;
+}
+.btn-blog-firstss{
+    border:5px solid rgb(202, 200, 200);
+    font-size: 1rem;
+}
+.form-control1{
+   
+    border: 5px solid transparent;
+    border-color: transparent;
+    font-size: 4rem;
+    border-radius: 0px;
+    height: 3vh;
+}
+.input-right{
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn-right{
+    position: absolute;
+        top: 0;
+        border-radius: 5px;
+        right: 0px;
+        z-index: 2;
+        border: none;
+        top: 2px;
+        height: 30px;
+        cursor: pointer;
+        color: white;
+        background-color: #1e90ff;
+        transform: translateX(2px);
 }
