@@ -103,7 +103,7 @@ const Blogsmain=()=> {
 <Button variant="transparent" style={{float:"left",fontSize:"1rem",fontFamily: "IBM Plex Sans,sans-serif" }} className="crd-blg-btn">Blogs</Button>
 </Card.Body>
 </Card>
-
+      
 
       );
   }
@@ -179,11 +179,20 @@ const Blogsmain=()=> {
                  }
                   </div>
 
+                  {show? (<div className="row1 mx-auto" style={{display:"inline-block", textAlign:"center",}}   >
+                         {  Scard.map(redrCard)
+                 }
+                  </div>) : null}
+
 
     </div>
+    
     <hr className="hr-lines mx-auto" />
       <div className="after-line-btn">
-      <button  size="large" className="btn-blog-firsts btn ">LOAD MORE </button><span><BsArrowRight size={40} style={{color:"#00af66"}} /></span>
+      <button  size="large" className="btn-blog-firsts btn "
+      onClick= {()=>{ setShow(!show)}}
+      
+      >LOAD MORE </button><span><BsArrowRight size={40} style={{color:"#00af66"}} /></span>
       </div>
       <Footer />
         </div>
