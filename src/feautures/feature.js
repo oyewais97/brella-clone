@@ -89,11 +89,11 @@ const Feature=()=> {
             <br />
             <br />
             <br />
-            {/* <div className="data-analytics-div">
-                <h1 className="pltfrm-heading">Data Analytics</h1>
+            <div className="data-analytics-div">
+                <h1 className="pltfrm-heading-data">Data Analytics</h1>
                 <div className="left-list col-6 mx-auto">
                 <h6 className="ul-heaindg-ftr-netwrk col-6 mx-auto">Networking & Event Engagement</h6>
-                    <ul className="ul-pltfrm-list col-8 ">
+                    <ul className="ul-pltfrm-list col-8 mx-auto">
                     {
                         FeatureScndlistarray.map(featureScndList)
                     }
@@ -101,7 +101,7 @@ const Feature=()=> {
                 </div>
                 <div className="right-list col-6 mx-auto">
                 
-                <ul className="ul-pltfrm-list col-10 ">
+                <ul className="ul-pltfrm-list col-8 mx-auto ">
                     <h6 className="ul-heaindg-ftrs-beha">Event Schedule</h6>
                       
                         {
@@ -112,7 +112,7 @@ const Feature=()=> {
 
                 </div>
              
-            </div> */}
+            </div>
 
             
             <br />
