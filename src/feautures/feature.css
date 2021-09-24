@@ -163,14 +163,14 @@
 .data-analytics-div{
 
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 4rem;
     margin-bottom: 30rem;
     padding-top: 20vh;
 
 }
 .ul-heaindg-ftr-netwrk{
-    padding-top: 20px;
-    
+    padding-top: 4rem;
+    padding-left: 8rem;
     font-size: 1.3rem;
     font-weight: 700;
     line-height: .97222;

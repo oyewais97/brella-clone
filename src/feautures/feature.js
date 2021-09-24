@@ -41,7 +41,7 @@ const Feature=()=> {
             </div>
             <div className="platform-div">
                 <h1 className="pltfrm-heading">Platform</h1>
-                <div className="left-list col-6 mx-auto">
+                <div className="left-list col=sm-10 col-md-8  col-lg-6 mx-auto">
                 <h6 className="ul-heaindg-ftr col-6 mx-auto">Virtual, hybrid & in-person events</h6>
                     <ul className="ul-pltfrm-list">
                     
@@ -63,15 +63,15 @@ const Feature=()=> {
 
                     </ul>
                 </div>
-                <div className="right-list col-6 mx-auto">
-                <h6 className="ul-heaindg-ftrs">Event Schedule</h6>
+                <div className="right-list col=sm-10 col-md-8  col-lg-6 mx-auto">
+                <h6 className="ul-heaindg-ftrs col-9">Event Schedule</h6>
                     <ul className="ul-pltfrm-list ">
                     
                     {FeatureRightlistarray.map(featureScndList)}
 
                     </ul>
                     <br />
-                    <h6 className="ul-heaindg-ftrs">Sponsors, partners & exhibitors</h6>
+                    <h6 className="ul-heaindg-ftrs col-11">Sponsors, partners & exhibitors</h6>
                     <ul className="ul-pltfrm-list  ">
                     
                     {FeatureRightlistarray.map(featureScndList)}
@@ -79,7 +79,7 @@ const Feature=()=> {
                     </ul>
                     <br />
                     <ul className="ul-pltfrm-list  ">
-                    <h6 className="ul-heaindg-ftrs">Event management</h6>
+                    <h6 className="ul-heaindg-ftrs col-9">Event management</h6>
                     {FeatureRightlistarray.map(featureScndList)}
                     </ul>
 
@@ -92,7 +92,9 @@ const Feature=()=> {
             <div className="data-analytics-div">
                 <h1 className="pltfrm-heading-data">Data Analytics</h1>
                 <div className="left-list col-6 mx-auto">
-                <h6 className="ul-heaindg-ftr-netwrk col-6 mx-auto">Networking & Event Engagement</h6>
+                    <br/>
+                <h6 className="ul-heaindg-ftr-netwrk col-7 mx-auto">Networking & Event Engagement</h6>
+                <br />
                     <ul className="ul-pltfrm-list col-8 mx-auto">
                     {
                         FeatureScndlistarray.map(featureScndList)
@@ -102,7 +104,7 @@ const Feature=()=> {
                 <div className="right-list col-6 mx-auto">
                 
                 <ul className="ul-pltfrm-list col-8 mx-auto ">
-                    <h6 className="ul-heaindg-ftrs-beha">Event Schedule</h6>
+                    <h6 className="ul-heaindg-ftrs-beha col-7 mx-auto">Event Schedule</h6>
                       
                         {
                             FeatureRightlistarray.map(featureScndList)
