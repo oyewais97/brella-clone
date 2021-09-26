@@ -1,117 +1,62 @@
-j-heading{
-    color: black;
-    font-size: 60px;
-    font-weight: 700;
-    
-}
-.j-paragraph{
-   font-weight: bold;
-}
-.container{
-   margin-top: 11vh;
-   justify-content: center;
-  
-   
-
-}
-.req-txt{
-   text-align: left;
-}
-.req-form{
-   text-align: right;
-   justify-self: end;
-}
-.third-r{
-   margin-top: 100px;
+.contact-main-div{
    width: 100%;
-
 }
-.Name-label{
-   
-   display: block;
+
+.contact-left-div{
    float: left;
+   text-align: center;
+   margin-top: 10rem;
+}
+.schedule-hding{
+   font-size: 4.5rem;
    
-}
-.reqdemo-image{
-   height: 380px;
-   margin-left: -1vw;
-   
-   margin-top: 90px;
-   flex-flow: row;
-   float: center;
-   justify-content: center;
-
-}
-.Name-label2{
-   padding: 0px 10px;
-}
-.card3{
-   border: 2px solid whitesmoke;
-   border-radius: 15px;
-   height: 180vh;
-   
-}
-.card2{
-   background-color: white;
-   
-  display: inline-flex;
-  float: left;
-  height: 180vh;
-}
-.left-side-heading{
-   font-weight: bolder;
-   color: #444444;
-   font-size: 3vw;
-   justify-content: center;
-   display: flex;
-   flex-wrap: nowrap;
-   
-
-}
-.pragrahp-left{
-   font-size: larger;
+   line-height: .97222;
+   font-family: "Gilroy",sans-serif;
    font-weight: 700;
-   display: flex;
+   color: rgb(0, 0, 0);
+}
+.schdule-para{
+   font-size: 1.25rem;
+    line-height: 1.44118;
+    font-family: "IBM Plex Sans",sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.schedule-imgs1{
+   border-radius: 50%;
+   width: 20%;
+   height: 20vh;
+   margin-right: -4rem;
+   margin-top: 6rem;
+
+}
+.schedule-imgs2{
+   border-radius: 50%;
+   width: 20%;
+   height: 20vh;
+   z-index: 4;
+}
+.schedule-imgs3{
+   border-radius: 50%;
+   width: 20%;
+   height: 20vh;
+   margin-left: -2rem;
+   margin-top: 6rem;
+   z-index: -1;
+}
+.contact-right-div{
    float: right;
-   color: rgb(117, 116, 116);
-   justify-content: center;
-  
+   margin-top: 5rem;
+   height: auto;
+   background-color: whitesmoke;
+   
 }
-.form-heading{
-   font-weight: bolder;
-   color: #444444;
-   margin-left: 30px;
-   justify-content: center;
-   display: flex;
+.EmailContatcinput{
+   width: 50%;
+   margin-top: 1rem;
 
 }
-.inline-input{
-   
-   display: flex;
-   margin: 5px;
-  font-weight: 700;
-   margin-top: 12px;
-   padding-top: 10px;
-   
-   
-}
-.form-control{
-   display: flex;
-   width: 50%;
-   flex-flow: row;
-   margin: 3px;
-}
-.in-row{
-   font-weight: 700;
-   color: #444444;
-   margin-top: 10px;
-   padding-top: 15px;
-   
-}
-.input{
-   display: flex;
-   align-self: left;
-   align-items: left;
-   
-           
+.dropdown-country{
+   margin-top: 3rem;
 }
